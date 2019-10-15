@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DGameFramework">
+      <UniqueIdentifier>{44b0bf64-4df7-4df7-aadf-af99d65a6f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\singletonBase">
+      <UniqueIdentifier>{acfb0708-751f-407f-886f-3fa105362fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{302d4e89-8c43-49dd-bdf7-6af312b7478d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager">
+      <UniqueIdentifier>{4e8e37ae-a805-4157-b8ad-868e10f7b897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\UTIL">
+      <UniqueIdentifier>{d10c4b12-fe3a-4005-9c93-f6b5a50206f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\image">
+      <UniqueIdentifier>{aef4c917-5094-4bf1-b595-0f3e83b30421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\progressBar">
+      <UniqueIdentifier>{f2c28c1c-d077-4588-a8b2-2863b5bfd9d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\txtData">
+      <UniqueIdentifier>{6f9e32c7-0a9b-4f8b-9c3e-7b0453372fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\timer">
+      <UniqueIdentifier>{77aa64ca-f21d-41b8-8600-5193dffd89e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\animation">
+      <UniqueIdentifier>{2f4ddc87-647a-4f40-a885-c9100fa03a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\effect">
+      <UniqueIdentifier>{061bce0b-230d-4a01-aa8d-d4f14c8464d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\button">
+      <UniqueIdentifier>{0528888b-c415-4479-b9ab-95310fc4fa68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\action">
+      <UniqueIdentifier>{a8c91ad3-8bd1-473e-a19d-986a0f1aabea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Database">
+      <UniqueIdentifier>{e11f9484-8cf7-4b52-9a8f-05a85857e32f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene">
+      <UniqueIdentifier>{9ba0b152-3cfd-481d-a122-81466ad3e16b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\BattleScene">
+      <UniqueIdentifier>{dbf54ef6-e613-4dc5-b16e-cb2b8b1d3723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\BattleScene\TurnManage">
+      <UniqueIdentifier>{a4e232a5-c4bb-4ee3-a7ec-2028b8ca96e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\BattleScene\Map">
+      <UniqueIdentifier>{4cfca66c-a9d9-44f0-8351-1a480e9b9e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\BattleScene\UI">
+      <UniqueIdentifier>{7f0a9ac2-5aa3-4718-9dba-fa8bdf338b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\BattleScene\Player">
+      <UniqueIdentifier>{1f4a3e0c-adec-4510-a44e-f2351f93476a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\BattleScene\weapon">
+      <UniqueIdentifier>{6581a9de-c122-403d-8a6c-880be01943c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\BattleScene\weapon\weaponlist">
+      <UniqueIdentifier>{46d92645-8645-4a51-8632-a8722ada28de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFramework\singletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DGameFramework\UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DGameFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>2DGameFramework\UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="iniDataManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>2DGameFramework\button</Filter>
+    </ClInclude>
+    <ClInclude Include="action.h">
+      <Filter>2DGameFramework\action</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>MainGame\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="keyAniManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnManager.h">
+      <Filter>MainGame\BattleScene\TurnManage</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>MainGame\BattleScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>MainGame\BattleScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>MainGame\BattleScene\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>MainGame\BattleScene\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="WormsInfo.h">
+      <Filter>MainGame\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="airstrike.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="banana.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="bat.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="bazooka.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="cluster.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="dynamite.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="firepunch.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="girder.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="grenade.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="holy.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="mine.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="napalm.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="pertrol.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="rope.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="shotgun.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="skipgo.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="surrender.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="teleport.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponManager.h">
+      <Filter>MainGame\BattleScene\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>MainGame\BattleScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Worm.h">
+      <Filter>MainGame\BattleScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="homingbaz.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="banana2.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="airmisl.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="fire.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+    <ClInclude Include="firestrike.h">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DGameFramework\UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>2DGameFramework\UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="iniDataManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>2DGameFramework\button</Filter>
+    </ClCompile>
+    <ClCompile Include="action.cpp">
+      <Filter>2DGameFramework\action</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>MainGame\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="keyAniManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnManager.cpp">
+      <Filter>MainGame\BattleScene\TurnManage</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>MainGame\BattleScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>MainGame\BattleScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>MainGame\BattleScene\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>MainGame\BattleScene\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="airstrike.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="banana.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="bat.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="bazooka.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="cluster.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamite.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="firepunch.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="girder.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="grenade.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="holy.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="mine.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="napalm.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="pertrol.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="rope.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="shotgun.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="skipgo.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="surrender.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="teleport.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponManager.cpp">
+      <Filter>MainGame\BattleScene\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>MainGame\BattleScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Worm.cpp">
+      <Filter>MainGame\BattleScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="homingbaz.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="banana2.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="airmisl.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="fire.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+    <ClCompile Include="firestrike.cpp">
+      <Filter>MainGame\BattleScene\weapon\weaponlist</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="20170728_1.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
