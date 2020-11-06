@@ -1,1 +1,2 @@
-# WormsGameDevPractice
+# Worms Game Imitation
+
