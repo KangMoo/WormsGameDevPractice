@@ -1,5 +1,9 @@
 # Worms Game Imitation
 
-![prev](./resource/image20.png)
+![](./resource/1.png)
 
-![prev](./resource/image21.png)
+![](./resource/2.png)
+
+![](./resource/3.png)
+
+![](./resource/4.png)
